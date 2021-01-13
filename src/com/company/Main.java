@@ -4,15 +4,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Currency salary = new Currency(7000);
+        Currency salary = new Currency(9000);
 
         System.out.println(salary.getAmount());
 
-        salary.setAmount(10000);
+        salary.setAmount(11000);
 
         System.out.println(salary.getAmount());
 
-        salary.setAmount(2500);
+        salary.setAmount(2600);
 
         System.out.println(salary.getAmount());
 
@@ -22,5 +22,7 @@ public class Main {
         System.out.println("Salary in British Pounds: " + salaryInPounds.getAmount());
 
 //        Currency net = salary.getNetValue();
+
+        // This is a comment to demonstrate changes in repo
     }
 }
